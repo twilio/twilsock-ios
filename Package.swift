@@ -19,7 +19,7 @@ let package = Package(
               .target(name: "TwilioCommonLib"),
               .target(name: "TwilioStateMachine") 
           ],
-          path: "Dummy"
+          path: "dummy"
         ),
         .binaryTarget(
             name: "TwilioTwilsockLib",
