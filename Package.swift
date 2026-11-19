@@ -19,22 +19,22 @@ let package = Package(
               .target(name: "TwilioCommonLib"),
               .target(name: "TwilioStateMachine") 
           ],
-          path: "dummy"
+          path: "Dummy"
         ),
         .binaryTarget(
             name: "TwilioTwilsockLib",
-            url: "https://github.com/twilio/twilsock-ios/releases/download/v3.0.0/twilio-twilsock-ios-3.0.0.zip",
-            checksum: "aa80c8e97d9232e4c53a274f954ead1e648b913e12e120b3164349e9d51204cc"
+            url: "https://github.com/twilio/twilsock-ios/releases/download/v0.0.2/twilio-twilsock-ios-0.0.2.zip",
+            checksum: "e581727847f520cdee92c418d63217d44f366c33054d555403a3f0976e964009"
         ),
         .binaryTarget(
             name: "TwilioCommonLib",
-            url: "https://github.com/twilio/twilsock-ios/releases/download/v3.0.0/twilio-commonLib-ios-3.0.0.zip",
-            checksum: "b53fd09c79ca2e86016fdc859ce77658abbb9dcddc24a7114bdf55754e2d672f"
+            url: "https://github.com/twilio/twilsock-ios/releases/download/v0.0.2/twilio-commonLib-ios-0.0.2.zip",
+            checksum: "bfd4d5c998caa053ddcb01a35ce47e57d66f2032a36bb95ccbf325a0d57c9d68"
         ),
         .binaryTarget(
             name: "TwilioStateMachine",
-            url: "https://github.com/twilio/twilsock-ios/releases/download/v3.0.0/twilio-stateMachine-ios-3.0.0.zip",
-            checksum: "d550f3e26b48f31fbbb987a2c1e0e8722c7df6467c1ebe75924bbebbe5e83953"
+            url: "https://github.com/twilio/twilsock-ios/releases/download/v0.0.2/twilio-stateMachine-ios-0.0.2.zip",
+            checksum: "f9585ba87ec5c27b0e4372195d883c33664c868bde5465c102cb2caa220ba9c1"
         )
     ]
 )
